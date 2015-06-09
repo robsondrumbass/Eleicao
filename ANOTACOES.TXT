@@ -1,0 +1,18 @@
+****** Anotações Importantes
+
+=== URNA ===
+= Qual a sequencia de telas
+A sequencia de tela para uma votação é baseada na abrangencia e região em votação
+Votação para abrangencia 1 = GERAL
+Votação para abrangencia MAIOR QUE 1 = REGIONAL
+
+= Como saber se quem esta votando pode votar em mais de uma regiao em aberto ?
+Verificar se o eleitor, qual a sua consagração
+Depois verificamos as regioes em aberto
+Depois removemos as regioes ja votadas
+Caso possa votar em mais de um regiao, selecionar a primeira e ao concluir cada uma, registrar sua votação e retornar a listar as regiões e 
+não deixar para salvar na conclusão de todas, mas registrar ao final de cada uma região
+
+=== MESARIO ===
+= Onde verificar se o eleitor pode votar ?
+Ao carregar o leitor, verificar sua região caso não seja do colegiado e verificar se a sua seção esta aberta ou se já foi fechada.

@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteBase /Eleicao
+RewriteCond $1 !^(index\.php|file|img|robots\.txt|google*|assets|css|js)
+RewriteRule ^(.*)$ index.php?/$1 [QSA,L]

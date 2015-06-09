@@ -1,0 +1,146 @@
+body{
+    text-align: center;
+    position: fixed;
+    background-color: #151515; 
+}
+
+/* SECTIONS DEFAULT */
+
+section{
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+    position: fixed;
+}
+
+section header,
+section article{
+    width: 75%;
+    margin:0 auto;
+    display: table;
+}
+
+section header h1,section header h2{
+    color: #FFF;
+    margin-top: 1%;
+    
+}
+
+section header h1{font-size: 2.5em;}
+section header h2{font-size: 2.0em;}
+
+/* TELA - AGUARDE */
+
+section#aguarde header img{width: 15%;}
+
+section#aguarde article,section#regiao article{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 7%;
+    padding: 1.5%;
+    
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+section#aguarde article h3{
+    margin:0;
+    font-size: 2.5em;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+    color: #292929;
+}
+
+/* TELA - REGIÃO */
+
+section#regiao article h3{
+    margin:0;
+    font-size:1.8em;
+    color: #292929;
+}
+
+section#regiao article h4{
+    margin-top:2%;
+    font-size:3.5em;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+    color: #a20000;
+}
+
+/* TELA - CANDIDATO */
+
+section#candidato header h1{
+    color:#f0f000;
+    font-size: 3.0em;
+}
+
+section#candidato header h2{
+    font-size: 2.5em;
+}
+
+section#candidato article{
+    margin-top:2%;
+}
+
+section#candidato article p.alert{
+    margin:0 auto;
+    margin-bottom: 2%;
+    padding:10px 5px;
+    background-color: #000043;
+    border: none;
+    color:#FFF;
+    font-size: 1.6em;
+}
+
+section#candidato article .candidatos, .candidato{
+    width:100%;
+    display: table;
+}
+
+section#candidato article .candidatos .candidato{
+    padding: 1%;
+    margin-bottom: 1.5%;
+    
+    border-radius: 2px;
+    background-color: #efefef;
+}
+
+section#candidato article .candidatos .candidato img{
+    width: 120px;
+    height: 120px;
+    float: left;
+    border-radius: 2px;
+}
+
+section#candidato article .candidatos .candidato img.anular{
+    padding:3.5%;
+}
+
+section#candidato article .candidatos .candidato h3{
+    margin-top:45px;
+    font-size: 2.0em;
+    color:#212121;
+}
+
+section#candidato article .modal-content{
+    width: 100%;
+    display: table;
+    padding:2%;
+}
+
+section#candidato article .modal-content img{
+    width:400px;
+    height: 400px;
+}
+
+section#candidato article .modal-content img.anular{
+    padding: 20%;
+}
+
+section#candidato article .modal-content .btn{
+   padding: 8px 20px;
+   font-size:1.8em;   
+   margin-right: 2%;
+}
+
+
+
+
